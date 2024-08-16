@@ -1,6 +1,6 @@
 # Sparse Tensor Completion for AutoML
 
-'notebooks' contains the code for tensor generation as well as the code for the experiments performed.
+'notebooks' contains the code for tensor generation as well as the code for the expirements performed.
 
 'classification_datasets' contains the downstream task datasets we used to generate our tensors for this application.
 
