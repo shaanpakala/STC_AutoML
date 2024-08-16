@@ -1,6 +1,4 @@
-# STC_AutoML
-Sparse Tensor Completion for Automated Machine Learning
-
+# Sparse Tensor Completion for Automated Machine Learning
 
 'notebooks' contains the code for tensor generation as well as the code for the experiments performed.
 
