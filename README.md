@@ -1,5 +1,8 @@
 # Sparse Tensor Completion for AutoML
 
+#### Utilizing Sparse Tensor Completion to accelerate Non-Deep Learning Hyperparameter Optimization, Neural Architecture Search, & Database Query Cardinality estimation.
+
+
 'notebooks' contains the code for tensor generation as well as the code for the expirements performed (and all the tensor completion models themselves).
 
 'classification_datasets' contains the downstream task datasets we used to generate our tensors for this application.
