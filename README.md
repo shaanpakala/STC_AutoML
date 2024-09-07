@@ -8,7 +8,12 @@
 'classification_datasets' contains the downstream task datasets we used to generate our tensors for this application.
 
 'training_tensors' contains all the tensors we generated for evaluating Sparse Tensor Completion for this application.
-  - these are split up into 'deep_learning', 'non_deep', & 'query_tensors' folders
+  - these are split up into 'non_deep','deep_learning', & 'query_tensors' folders
+
+Naming conventions:
+  - non_deep/{model_type}\_{classification\_dataset}\_{date\_created}.pt
+  - deep_learning/{model_type}\_{classification\_dataset}\_{date\_created}.pt
+  - query_tensors/{conjuctive\_operator\_1}_{conjunctive\_operator\_2}\_{date\_created}.pt
 
 
 See 'demo.ipynb' for usage of this application.
