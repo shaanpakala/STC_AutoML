@@ -17,8 +17,8 @@ Naming conventions:
 
 
 Detailed list of training tensors:
-<img width="880" alt="Screenshot 2024-09-12 at 2 17 19 PM" src="https://github.com/user-attachments/assets/bb4d5f9d-e40d-478c-a9b0-5de170f7789c">
 
+<img width="875" alt="Screenshot 2024-09-12 at 2 18 12 PM" src="https://github.com/user-attachments/assets/2b95f2cb-f21f-406d-a7cd-c4a6c26566a0">
 
 
 See 'demo.ipynb' for usage of this application.
