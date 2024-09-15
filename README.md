@@ -1,4 +1,4 @@
-# Sparse Tensor Completion for AutoML
+# Automating Data Science Pipelines with Tensor Completion
 
 #### Utilizing Sparse Tensor Completion to accelerate Non-Deep Learning Hyperparameter Optimization, Neural Architecture Search, & Database Query Cardinality estimation.
 
