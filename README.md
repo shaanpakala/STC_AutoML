@@ -9,7 +9,7 @@ Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, V
 
 ##### See demo.ipynb for usage of this application.
 
-'notebooks' contains the code for tensor generation as well as the code for the expirements performed (and all the tensor completion models themselves).
+'notebooks' contains the code for tensor generation as well as the code for the experiments performed (and all the tensor completion models themselves).
 
 'classification_datasets' contains the downstream task datasets we used to generate our tensors for this application.
 
