@@ -4,6 +4,7 @@
 
 Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos Papalexakis
 
+# notebooks' folder is missing since the paper is still under review at IEEE Big Data 2024
 
 
 ##### See demo.ipynb for usage of this application.
