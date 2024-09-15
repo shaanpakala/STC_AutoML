@@ -2,6 +2,7 @@
 
 #### Utilizing Sparse Tensor Completion to accelerate Non-Deep Learning Hyperparameter Optimization, Neural Architecture Search, & Database Query Cardinality estimation.
 
+##### See demo.ipynb for usage of this application.
 
 'notebooks' contains the code for tensor generation as well as the code for the expirements performed (and all the tensor completion models themselves).
 
@@ -19,6 +20,3 @@ Naming conventions:
 Detailed list of training tensors:
 
 <img width="875" alt="Screenshot 2024-09-12 at 2 18 12 PM" src="https://github.com/user-attachments/assets/2b95f2cb-f21f-406d-a7cd-c4a6c26566a0">
-
-
-See 'demo.ipynb' for usage of this application.
