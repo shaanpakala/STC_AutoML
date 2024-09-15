@@ -2,6 +2,10 @@
 
 #### Utilizing Sparse Tensor Completion to accelerate Non-Deep Learning Hyperparameter Optimization, Neural Architecture Search, & Database Query Cardinality estimation.
 
+Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos Papalexakis
+
+
+
 ##### See demo.ipynb for usage of this application.
 
 'notebooks' contains the code for tensor generation as well as the code for the expirements performed (and all the tensor completion models themselves).
