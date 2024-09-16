@@ -4,7 +4,7 @@ Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, V
 
 #### Utilizing Sparse Tensor Completion to accelerate Non-Deep Learning Hyperparameter Optimization, Neural Architecture Search, & Database Query Cardinality estimation.
 
-# note: experiments & code are missing, as the paper is still under review at IEEE Big Data 2024
+# note: experiments & code are missing, as the paper is still under review (contact shaan.pakala@gmail.com)
 
 
 ##### See demo.ipynb for usage of this application.
