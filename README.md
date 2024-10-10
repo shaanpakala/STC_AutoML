@@ -29,6 +29,7 @@ Detailed list of training tensors:
 
 If you use our code or datasets, please cite:
 
+```
 @misc{pakala2024automatingdatasciencepipelines,
       title={Automating Data Science Pipelines with Tensor Completion}, 
       author={Shaan Pakala and Bryce Graw and Dawon Ahn and Tam Dinh and Mehnaz Tabassum Mahin and Vassilis Tsotras and Jia Chen and Evangelos E. Papalexakis},
@@ -38,3 +39,4 @@ If you use our code or datasets, please cite:
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2410.06408}, 
 }
+```
