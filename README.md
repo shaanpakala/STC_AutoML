@@ -27,8 +27,7 @@ Detailed list of training tensors:
 
 
 
-
-If you use our code or datasets, please cite:
+## Please cite:
 
 ```
 @misc{pakala2024automatingdatasciencepipelines,
