@@ -32,7 +32,8 @@ If you use our code or datasets, please cite:
 ```
 @misc{pakala2024automatingdatasciencepipelines,
       title={Automating Data Science Pipelines with Tensor Completion}, 
-      author={Shaan Pakala and Bryce Graw and Dawon Ahn and Tam Dinh and Mehnaz Tabassum Mahin and Vassilis Tsotras and Jia Chen and Evangelos E. Papalexakis},
+      author={Shaan Pakala and Bryce Graw and Dawon Ahn and Tam Dinh and Mehnaz Tabassum Mahin
+              and Vassilis Tsotras and Jia Chen and Evangelos E. Papalexakis},
       year={2024},
       eprint={2410.06408},
       archivePrefix={arXiv},
