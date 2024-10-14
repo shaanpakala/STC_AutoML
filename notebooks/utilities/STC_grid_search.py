@@ -50,9 +50,7 @@ def return_best_k_params(model,
     if (verbose): print("\nRunning sparse tensor completion...")
     
     STC_model = train_tensor_completion(model_type = STC_model_type, 
-                                        train_indices = sparse_tensor.indices().t(),
-                                        train_values = sparse_tensor.values(), 
-                                        tensor_size = sparse_tensor.size(),
+                                        sparse_tensor = sparse_tensor,
                                         rank = rank, 
                                         num_epochs = 15000, 
                                         batch_size = 256, 
