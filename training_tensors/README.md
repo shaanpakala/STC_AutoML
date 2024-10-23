@@ -1,7 +1,8 @@
 # Detailed Dataset Description
 
+These are split up into 'non_deep', 'deep_learning', & 'query_tensors' folders.
 
-Naming conventions:
+Our naming conventions:
   - non_deep/{model_type}\_{classification\_dataset}\_{date\_created}.pt
   - deep_learning/{model_type}\_{classification\_dataset}\_{date\_created}.pt
   - query_tensors/{conjuctive\_operator\_1}_{conjunctive\_operator\_2}\_{date\_created}.pt
