@@ -13,7 +13,7 @@ Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, V
 'classification_datasets' contains the downstream task datasets we used to generate our tensors for this application.
 
 'training_tensors' contains all the tensors we generated for evaluating Sparse Tensor Completion for this application.
-  - these are split up into 'non_deep','deep_learning', & 'query_tensors' folders
+  - see 'training_tensors/README.md' for more details
 
 
 
