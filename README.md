@@ -1,6 +1,6 @@
 # Automating Data Science Pipelines with Tensor Completion
 
-Paper: [Link](https://ieeexplore.ieee.org/document/10825934) [PDF](https://arxiv.org/pdf/2410.06408)
+Paper: [[Link](https://ieeexplore.ieee.org/document/10825934)] [[PDF](https://arxiv.org/pdf/2410.06408)]
 
 Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos Papalexakis
 
