@@ -1,6 +1,6 @@
 # Automating Data Science Pipelines with Tensor Completion
 
-Paper: https://arxiv.org/abs/2410.06408
+Paper: [Link](https://ieeexplore.ieee.org/document/10825934) [PDF](https://arxiv.org/pdf/2410.06408)
 
 Authors: Shaan Pakala, Bryce Graw, Dawon Ahn, Tam Dinh, Mehnaz Tabassum Mahin, Vassilis Tsotras, Jia Chen, and Evangelos Papalexakis
 
@@ -19,17 +19,17 @@ Contact: shaan.pakala@gmail.com
 
 
 
-## Please cite:
-Paper: https://arxiv.org/abs/2410.06408
+## Citation:
 
 ```
-@misc{pakala2024automatingdatasciencepipelines,
-      title={Automating Data Science Pipelines with Tensor Completion}, 
-      author={Shaan Pakala and Bryce Graw and Dawon Ahn and Tam Dinh and Mehnaz Tabassum Mahin and Vassilis Tsotras and Jia Chen and Evangelos E. Papalexakis},
-      year={2024},
-      eprint={2410.06408},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.06408}, 
-}
+@INPROCEEDINGS{10825934,
+  author={Pakala, Shaan and Graw, Bryce and Ahn, Dawon and Dinh, Tam and Mahin, Mehnaz Tabassum and Tsotras, Vassilis and Chen, Jia and Papalexakis, Evangelos E.},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)}, 
+  title={Automating Data Science Pipelines with Tensor Completion}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1075-1084},
+  keywords={Tensors;Codes;Pipelines;Neural networks;Estimation;Data science;Benchmark testing;Hyperparameter optimization;Data models;Neural architecture search},
+  doi={10.1109/BigData62323.2024.10825934}}
 ```
