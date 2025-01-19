@@ -22,14 +22,12 @@ Contact: shaan.pakala@gmail.com
 ## Citation:
 
 ```
-@INPROCEEDINGS{10825934,
-  author={Pakala, Shaan and Graw, Bryce and Ahn, Dawon and Dinh, Tam and Mahin, Mehnaz Tabassum and Tsotras, Vassilis and Chen, Jia and Papalexakis, Evangelos E.},
-  booktitle={2024 IEEE International Conference on Big Data (BigData)}, 
-  title={Automating Data Science Pipelines with Tensor Completion}, 
+@inproceedings{pakala2024automating,
+  title={Automating Data Science Pipelines with Tensor Completion},
+  author={Pakala, Shaan and Graw, Bryce and Ahn, Dawon and Dinh, Tam and Mahin, Mehnaz Tabassum and Tsotras, Vassilis and Chen, Jia and Papalexakis, Evangelos E},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)},
+  pages={1075--1084},
   year={2024},
-  volume={},
-  number={},
-  pages={1075-1084},
-  keywords={Tensors;Codes;Pipelines;Neural networks;Estimation;Data science;Benchmark testing;Hyperparameter optimization;Data models;Neural architecture search},
-  doi={10.1109/BigData62323.2024.10825934}}
+  organization={IEEE}
+}
 ```
