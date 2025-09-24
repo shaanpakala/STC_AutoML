@@ -4,15 +4,22 @@ Paper: [[Link](https://ieeexplore.ieee.org/document/10825934)] [[PDF](https://ar
 
 Contact: shaan.pakala@gmail.com
 
-##### See demo.ipynb for usage of this application.
+## Usage
 
-'notebooks' contains the code for tensor generation as well as the code for the experiments performed (and all the tensor completion models themselves).
+##### To use tensor completion for hyperparameter tuning, download src/ folder and see one of the demo .ipynb notebooks
+
+• `See demo_sklearn.ipynb for hyperparameter tuning sklearn ML models`
+
+• `See demo_nn.ipynb for hyperparameter tuning a PyTorch neural network for regression or classification tasks`
+
+## Data & Experimental Details
+
+'notebooks' contains the code for tensor generation as well as the code for the experiments performed.
 
 'classification_datasets' contains the downstream task datasets we used to generate our training tensors for our experiments.
 
 'training_tensors' contains all the tensors we generated for evaluating Sparse Tensor Completion for our experiments.
   - see 'training_tensors/README.md' for more details
-
 
 
 ## Citation:
