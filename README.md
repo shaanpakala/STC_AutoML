@@ -6,10 +6,10 @@ Contact: [shaan.pakala@gmail.com](mailto:shaan.pakala@gmail.com)
 
 ## Usage
 
-To tune your own model, download `[demo/](demo/)` and use that folder on its own (it is entirely self-contained). Install from `[demo/requirements.txt](demo/requirements.txt)`, then run a notebook with `demo/` as the working directory. The notebooks ship with a small synthetic example. Swap in your data, model, and parameter grid. Details are in `[demo/README.md](demo/README.md)`.
+To tune your own model, download `demo/` and use that folder on its own (it is entirely self-contained). Install from `demo/requirements.txt`, then run a notebook with `demo/` as the working directory. The notebooks ship with a small synthetic example. Swap in your data, model, and parameter grid. Details are in `demo/README.md`.
 
-- `[demo/sklearn.ipynb](demo/sklearn.ipynb)` — scikit-learn models
-- `[demo/mlp.ipynb](demo/mlp.ipynb)` — a PyTorch neural network
+- `demo/sklearn.ipynb` — scikit-learn models
+- `demo/mlp.ipynb` — a PyTorch neural network
 
 
 
@@ -17,9 +17,9 @@ To tune your own model, download `[demo/](demo/)` and use that folder on its own
 
 - `notebooks/` — tensor generation and the experiments from the paper
 - `classification_datasets/` — downstream datasets used to build the training tensors
-- `training_tensors/` — tensors generated for the sparse tensor completion experiments. Details are in `[training_tensors/README.md](training_tensors/README.md)`.
+- `training_tensors/` — tensors generated for the sparse tensor completion experiments. Details are in `training_tensors/README.md`.
 
-
+*Please note this* `README.md` *file was created with heavy usage of cursor.ai, apologies for any mistakes.*
 
 ## Citation:
 
