@@ -2,24 +2,23 @@
 
 Paper: [[Link](https://ieeexplore.ieee.org/document/10825934)] [[PDF](https://arxiv.org/pdf/2410.06408)]
 
-Contact: shaan.pakala@gmail.com
+Contact: [shaan.pakala@gmail.com](mailto:shaan.pakala@gmail.com)
 
 ## Usage
 
-##### To use tensor completion for hyperparameter tuning, download src/ folder and see one of the demo .ipynb notebooks
+To tune your own model, download `[demo/](demo/)` and use that folder on its own (it is entirely self-contained). Install from `[demo/requirements.txt](demo/requirements.txt)`, then run a notebook with `demo/` as the working directory. The notebooks ship with a small synthetic example. Swap in your data, model, and parameter grid. Details are in `[demo/README.md](demo/README.md)`.
 
-• `See demo_sklearn.ipynb for hyperparameter tuning sklearn ML models`
+- `[demo/sklearn.ipynb](demo/sklearn.ipynb)` — scikit-learn models
+- `[demo/mlp.ipynb](demo/mlp.ipynb)` — a PyTorch neural network
 
-• `See demo_nn.ipynb for hyperparameter tuning a PyTorch neural network for regression or classification tasks`
 
-## Data & Experimental Details
 
-'notebooks' contains the code for tensor generation as well as the code for the experiments performed.
+## Data and experiments
 
-'classification_datasets' contains the downstream task datasets we used to generate our training tensors for our experiments.
+- `notebooks/` — tensor generation and the experiments from the paper
+- `classification_datasets/` — downstream datasets used to build the training tensors
+- `training_tensors/` — tensors generated for the sparse tensor completion experiments. Details are in `[training_tensors/README.md](training_tensors/README.md)`.
 
-'training_tensors' contains all the tensors we generated for evaluating Sparse Tensor Completion for our experiments.
-  - see 'training_tensors/README.md' for more details
 
 
 ## Citation:
@@ -34,3 +33,4 @@ Contact: shaan.pakala@gmail.com
   organization={IEEE}
 }
 ```
+
