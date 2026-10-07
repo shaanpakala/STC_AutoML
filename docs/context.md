@@ -1,21 +1,21 @@
 # Agent context
 
-Finished: Tuesday, October 6, 2026, 6:38 PM PDT
+Finished: Tuesday, October 6, 2026, 6:44 PM PDT
 
-**Demo snapshot:** commit `Add a self-contained demo for tuning models.` on `main`
+**Latest snapshot:** commit `Point practical use at the demo folder only.` on `main`
 
-- Hash: `cc15a6a079cec8a6a1c9b1dc1861da79ea0fceb0`
-- Commit: https://github.com/shaanpakala/STC_AutoML/commit/cc15a6a079cec8a6a1c9b1dc1861da79ea0fceb0
+- Hash: `0d537363ff1f2cf7779cd9930b1f476271ca5705`
+- Commit: https://github.com/shaanpakala/STC_AutoML/commit/0d537363ff1f2cf7779cd9930b1f476271ca5705
 - Repo: https://github.com/shaanpakala/STC_AutoML
 
-That commit adds `demo/` and the README that points users there. Restore it to get this tuning folder back.
+That commit removes the root notebooks and leaves practical tuning in `demo/` only. Restore it for the current tree.
 
 **Earlier snapshot:** commit `original code.` on `main`
 
 - Hash: `bf481d759f0edb99b485b3c32c9e908e0cfeea0f`
 - Commit: https://github.com/shaanpakala/STC_AutoML/commit/bf481d759f0edb99b485b3c32c9e908e0cfeea0f
 
-That commit is the published tree from before `demo/` was added. This file was updated after the demo push, so the demo commit does not contain this revision of the note.
+That commit is the published tree from before `demo/` was added. This file was updated after the latest snapshot, so that commit does not contain this revision of the note.
 
 Read this file together with `docs/paper.pdf` before changing anything.
 
@@ -60,7 +60,7 @@ MLP-specific details:
 - `tensor_entries` is how many grid cells to train. `tensor_portion` is the fraction used when `tensor_entries` is not set. If `tensor_entries` is set, it replaces `tensor_portion`.
 - `num_tests` repeated evaluations walk forward through a shuffled index list in windows of `training_values`. When the next window would run past the end of the dataset, `return_nn_eval` reshuffles and takes a fresh window, so a setting such as 3 tests of 500 rows on 1,000 samples does not train on an empty set.
 
-Root notebooks `demo_sklearn.ipynb`, `demo_nn.ipynb`, and `demo.ipynb` are still in the repository. `README.md` directs practical use to `demo/`.
+`README.md` directs practical use to `demo/`. The older root notebooks `demo.ipynb`, `demo_nn.ipynb`, and `demo_sklearn.ipynb` were removed in the latest snapshot.
 
 ## Repository organization
 
@@ -68,7 +68,6 @@ Top-level contents:
 
 - `README.md` — paper links, contact, pointer to `demo/`, data locations, and the citation.
 - `demo/` — self-contained tuning folder described above.
-- `demo_sklearn.ipynb`, `demo_nn.ipynb`, `demo.ipynb` — earlier root notebooks. Practical use is `demo/`.
 - `classification_datasets/` — downstream task datasets used to generate training tensors. Frozen.
 - `notebooks/` — code that builds the tensors and runs the paper’s experiments. Frozen. Subdirectories: `notebooks/dataset_creation/` and `notebooks/experiments/`.
 - `src/` — published tensor completion implementations and grid-search utilities. Frozen. Subdirectories: `src/tensor_completion_models/` and `src/utilities/`.
